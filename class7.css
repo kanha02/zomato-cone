@@ -1,0 +1,35 @@
+div.rel{
+    position: relative;
+    border: 3px solid blue ;
+    left: 30px;
+    right: 30px; 
+} 
+div.fixed{
+    position:fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 2S00px;
+    border: 2px solid blue;
+}
+div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+        border: 3px solid blue}
+
+ div.absolute{
+    position: absolute;
+    border:green 3px solid;
+    right: 0px;
+    left: 10px;
+    height: 100px;
+    width: 200px;
+    left: 200px;
+    top: 90px;
+} 
+div.sticky{
+    position: sticky;
+    top: 0px;
+    background-color: red;
+    border: 2px blue solid;
+}

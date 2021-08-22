@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    padding: 50px;
+}
+.parent{
+    background-color: blue;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* gap: 5px;it is used for giving gaps between two boxes  */
+    flex-wrap: wrap;  
+     align-items: center;
+      /* justify conent is for x axis and align items is used for y axis   */
+    
+     
+} 
+.child{
+    background-color: brown;
+    width: 100px;
+    height: 200px;
+    margin: 5px;
+    }
+    .child1{
+        background-color: brown;
+        width: 100px;
+        height: 200px;
+        margin: 5px;
+        align-self: flex-start;
+        }

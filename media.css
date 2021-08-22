@@ -1,0 +1,26 @@
+.mobile{
+    display: block;
+    font-size: 20px;
+    background-color: red;
+}
+.tab{
+    display: none;
+}
+.lap{
+    display: none;
+}
+@media(min-width: 768px){
+    .mobile{display: none;}
+    .tab{display: block;
+    background-color: orange;
+    font-size: 30px;
+    }.lap{display: none;}
+}
+@media(min-width: 1024px){
+    .mobile{display: none;}
+    .tab{display: none;}
+    .lap{display: block;
+    font-size: 40px;
+    background-color: blue;
+    }
+}
